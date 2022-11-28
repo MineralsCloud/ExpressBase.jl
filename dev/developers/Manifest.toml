@@ -85,11 +85,11 @@ version = "0.1.8"
 
 [[deps.ExpressBase]]
 deps = ["CompositionsBase", "JSON", "SimpleWorkflows", "TOML", "ValSplit", "YAML"]
-git-tree-sha1 = "68278665446e91d8be5c18bd26b44490678ff5bf"
+git-tree-sha1 = "e7de4583da21fb7fc3e27436b248731d9f742cac"
 repo-rev = "main"
 repo-url = "https://github.com/MineralsCloud/ExpressBase.jl"
 uuid = "6bf22d12-b2e3-4e51-8f6d-9d050a32c5d5"
-version = "0.3.0"
+version = "0.4.0"
 
 [[deps.FileWatching]]
 uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
