@@ -34,9 +34,9 @@ version = "0.8.12"
 
 [[deps.Compat]]
 deps = ["UUIDs"]
-git-tree-sha1 = "7a60c856b9fa189eb34f5f8a6f6b5529b7942957"
+git-tree-sha1 = "4e88377ae7ebeaf29a047aa1ee40826e0b708a5d"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "4.6.1"
+version = "4.7.0"
 weakdeps = ["Dates", "LinearAlgebra"]
 
     [deps.Compat.extensions]
@@ -65,9 +65,9 @@ version = "4.1.1"
 
 [[deps.DataStructures]]
 deps = ["Compat", "InteractiveUtils", "OrderedCollections"]
-git-tree-sha1 = "d1fff3a548102f48987a52a2e0d114fa97d730f0"
+git-tree-sha1 = "cf25ccb972fec4e4817764d01c82386ae94f77b4"
 uuid = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-version = "0.18.13"
+version = "0.18.14"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -84,9 +84,9 @@ version = "1.6.0"
 
 [[deps.EasyJobsBase]]
 deps = ["Dates", "Thinkers", "UUIDs"]
-git-tree-sha1 = "10473d11d3b9b1fb2112f5809b04b24a7bd67b1e"
+git-tree-sha1 = "8a304d0e892093ad788ed30a2b7836c1be10eaf5"
 uuid = "db8ca866-b61f-4bd1-a9b9-75c107d645d4"
-version = "0.7.0"
+version = "0.10.0"
 
 [[deps.ExprTools]]
 git-tree-sha1 = "c1d06d129da9f55715c6c212866f5b1bddc5fa00"
@@ -95,7 +95,7 @@ version = "0.1.9"
 
 [[deps.ExpressBase]]
 deps = ["CompositionsBase", "JSON", "SimpleWorkflows", "TOML", "ValSplit", "YAML"]
-git-tree-sha1 = "098cd2f7f3c598f36f8e3855bad333bbbcebd3ab"
+git-tree-sha1 = "b50b91918c7546de1e4b3cef0a8a4087f5fb4158"
 repo-rev = "main"
 repo-url = "https://github.com/MineralsCloud/ExpressBase.jl"
 uuid = "6bf22d12-b2e3-4e51-8f6d-9d050a32c5d5"
@@ -233,9 +233,9 @@ version = "1.6.0"
 
 [[deps.Parsers]]
 deps = ["Dates", "PrecompileTools", "UUIDs"]
-git-tree-sha1 = "a5aef8d4a6e8d81f171b2bd4be5265b01384c74c"
+git-tree-sha1 = "4b2e829ee66d4218e0cef22c0a64ee37cf258c29"
 uuid = "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
-version = "2.5.10"
+version = "2.7.1"
 
 [[deps.Pkg]]
 deps = ["Artifacts", "Dates", "Downloads", "FileWatching", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "Serialization", "TOML", "Tar", "UUIDs", "p7zip_jll"]
@@ -296,9 +296,9 @@ version = "0.9.4"
 
 [[deps.SimpleWorkflows]]
 deps = ["Dates", "EasyJobsBase", "Graphs", "MetaGraphs", "Serialization", "Thinkers"]
-git-tree-sha1 = "5be19ff698dd0eeef65f711d5a31bedcfc59d490"
+git-tree-sha1 = "8569e4bc45e2c6901510cf5943dbf945b8fcac80"
 uuid = "6a97d125-85da-4b66-b300-4bba10360563"
-version = "0.24.0"
+version = "0.25.2"
 
 [[deps.Sockets]]
 uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
