@@ -94,12 +94,12 @@ uuid = "e2ba6199-217a-4e67-a87a-7c52f15ade04"
 version = "0.1.9"
 
 [[deps.ExpressBase]]
-deps = ["CompositionsBase", "JSON", "SimpleWorkflows", "TOML", "ValSplit", "YAML"]
-git-tree-sha1 = "b50b91918c7546de1e4b3cef0a8a4087f5fb4158"
+deps = ["CompositionsBase", "JSON", "Serialization", "SimpleWorkflows", "TOML", "ValSplit", "YAML"]
+git-tree-sha1 = "e6b5426eea64f7c4fe8462a81b6ec437c5b6b0c4"
 repo-rev = "main"
 repo-url = "https://github.com/MineralsCloud/ExpressBase.jl"
 uuid = "6bf22d12-b2e3-4e51-8f6d-9d050a32c5d5"
-version = "0.4.3"
+version = "0.4.4"
 
 [[deps.FileIO]]
 deps = ["Pkg", "Requires", "UUIDs"]
@@ -308,10 +308,14 @@ deps = ["Libdl", "LinearAlgebra", "Random", "Serialization", "SuiteSparse_jll"]
 uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[deps.StaticArrays]]
-deps = ["LinearAlgebra", "Random", "StaticArraysCore", "Statistics"]
-git-tree-sha1 = "832afbae2a45b4ae7e831f86965469a24d1d8a83"
+deps = ["LinearAlgebra", "Random", "StaticArraysCore"]
+git-tree-sha1 = "0da7e6b70d1bb40b1ace3b576da9ea2992f76318"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.5.26"
+version = "1.6.0"
+weakdeps = ["Statistics"]
+
+    [deps.StaticArrays.extensions]
+    StaticArraysStatisticsExt = "Statistics"
 
 [[deps.StaticArraysCore]]
 git-tree-sha1 = "6b7ba252635a5eff6a0b0664a41ee140a1c9e72a"
@@ -350,9 +354,9 @@ uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [[deps.Thinkers]]
 deps = ["Dates"]
-git-tree-sha1 = "fcea5be7e3cc1521e629929bbdf20daa8c71c17f"
+git-tree-sha1 = "43cbf5971aff61261651d02ea2cca0700851d1a4"
 uuid = "6d80a3f9-a943-41fa-97b3-3004c0daf7a3"
-version = "0.2.0"
+version = "0.2.2"
 
 [[deps.Tokenize]]
 git-tree-sha1 = "90538bf898832b6ebd900fa40f223e695970e3a5"
