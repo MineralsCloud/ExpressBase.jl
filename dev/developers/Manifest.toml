@@ -83,10 +83,10 @@ uuid = "f43a241f-c20a-4ad4-852c-f6b1247861c6"
 version = "1.6.0"
 
 [[deps.EasyJobsBase]]
-deps = ["Dates", "Thinkers", "UUIDs"]
-git-tree-sha1 = "b324511558f2af5be0ab39bb8ff6e9018d62819d"
+deps = ["Dates", "Distributed", "Thinkers", "UUIDs"]
+git-tree-sha1 = "a6a51d40a947b14ce458c2737dfbb651cc2e5b8d"
 uuid = "db8ca866-b61f-4bd1-a9b9-75c107d645d4"
-version = "0.11.1"
+version = "0.13.0"
 
 [[deps.ExprTools]]
 git-tree-sha1 = "c1d06d129da9f55715c6c212866f5b1bddc5fa00"
@@ -95,7 +95,7 @@ version = "0.1.9"
 
 [[deps.ExpressBase]]
 deps = ["CompositionsBase", "JSON", "Serialization", "SimpleWorkflows", "TOML", "ValSplit", "YAML"]
-git-tree-sha1 = "40e92903d6f902922d1329f728bbe2f5e3d63896"
+git-tree-sha1 = "5c48b03f85737d1600a581b1ad812e21ca257cb7"
 repo-rev = "main"
 repo-url = "https://github.com/MineralsCloud/ExpressBase.jl"
 uuid = "6bf22d12-b2e3-4e51-8f6d-9d050a32c5d5"
@@ -296,9 +296,9 @@ version = "0.9.4"
 
 [[deps.SimpleWorkflows]]
 deps = ["Dates", "EasyJobsBase", "Graphs", "MetaGraphs"]
-git-tree-sha1 = "6145158bad6643a43330aa8eec49d0b9c5a3e257"
+git-tree-sha1 = "4bade3dec0d6ab8ad849737c3bb7bee22ffc4afa"
 uuid = "6a97d125-85da-4b66-b300-4bba10360563"
-version = "0.26.0"
+version = "0.27.0"
 
 [[deps.Sockets]]
 uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
@@ -309,18 +309,18 @@ uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 
 [[deps.StaticArrays]]
 deps = ["LinearAlgebra", "Random", "StaticArraysCore"]
-git-tree-sha1 = "0da7e6b70d1bb40b1ace3b576da9ea2992f76318"
+git-tree-sha1 = "fffc14c695c17bfdbfa92a2a01836cdc542a1e46"
 uuid = "90137ffa-7385-5640-81b9-e52037218182"
-version = "1.6.0"
+version = "1.6.1"
 weakdeps = ["Statistics"]
 
     [deps.StaticArrays.extensions]
     StaticArraysStatisticsExt = "Statistics"
 
 [[deps.StaticArraysCore]]
-git-tree-sha1 = "1d5708d926c76a505052d0d24a846d5da08bc3a4"
+git-tree-sha1 = "36b3d696ce6366023a0ea192b4cd442268995a0d"
 uuid = "1e83bf80-4336-4d27-bf5d-d5a4f845583c"
-version = "1.4.1"
+version = "1.4.2"
 
 [[deps.Statistics]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -329,9 +329,9 @@ version = "1.9.0"
 
 [[deps.StringEncodings]]
 deps = ["Libiconv_jll"]
-git-tree-sha1 = "33c0da881af3248dafefb939a21694b97cfece76"
+git-tree-sha1 = "b765e46ba27ecf6b44faf70df40c57aa3a547dcb"
 uuid = "69024149-9ee7-55f6-a4c4-859efe599b68"
-version = "0.3.6"
+version = "0.3.7"
 
 [[deps.SuiteSparse_jll]]
 deps = ["Artifacts", "Libdl", "Pkg", "libblastrampoline_jll"]
